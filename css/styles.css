@@ -1,0 +1,6 @@
+.site-nav a:hover {background-color: tomato;}
+a[class="title"] {background-color: yellow;}
+.test-link{color:green}
+.test-link:focus{color: tomato;}
+.test-link:hover{color:blue;}
+.test-link:active{color:rgb(85, 85, 85);}
