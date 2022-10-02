@@ -1,0 +1,35 @@
+/*Основной цвет текста #212121 */
+/*Дополнительный цвет текста #757575*/
+/*Белый цвет текста #FFFFFF*/
+/*Акцент #2196F3  */
+:root{--primary-text-color:#212121;
+    --additional-text-color: #757575;
+    --primery-white-color:#FFFFFF;
+    --akcent-color:#2196F3;
+     }
+
+/* UL */
+ul{list-style: none;}
+/* Page-header */
+.page-header{background-color :var(--primery-white-color);}
+.header-links .link.current{color: var(--akcent-color);}
+/* mail-tel */
+.mail-tel a:hover{color:var(--akcent-color);}
+.mail-tel a{color:var(--primary-text-color);}
+/* LOGO */
+.logo{color: var(--primary-text-color);}
+.web{color:var(--akcent-color);}
+/* Header-links */
+.header-links a{color: var(--primary-text-color);}
+/* site-nav */
+.site-nav a:hover{color:var(--akcent-color);} 
+/* Section-title */
+.section-title{color:var(--primary-text-color);}
+/* Team */
+.team{background-color: #F5F4FA;}
+/* Section */
+.section{background-color: #F5F5F5;}
+/* Hero */
+.hero{background-color: #2F303A;}
+.hero-title{color:var(--primery-white-color);}
+.button{background-color: var(--akcent-color); color: var(--primery-white-color);}
