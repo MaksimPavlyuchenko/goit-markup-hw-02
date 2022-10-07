@@ -7,29 +7,134 @@
     --primery-white-color:#FFFFFF;
     --akcent-color:#2196F3;
      }
-
-/* UL */
-ul{list-style: none;}
+/* BODY */
+body{font-family: Roboto,sans-serif ; color:var(--primary-text-color); background-color: #F5F5F5;}
 /* Page-header */
 .page-header{background-color :var(--primery-white-color);}
-.header-links .link.current{color: var(--akcent-color);}
+.header-links ,.link.current,.mail-tel{color: var(--akcent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    }
 /* mail-tel */
 .mail-tel a:hover{color:var(--akcent-color);}
 .mail-tel a{color:var(--primary-text-color);}
 /* LOGO */
-.logo{color: var(--primary-text-color);}
+.logo{color: var(--primary-text-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.19;
+    letter-spacing: 0.03em;}
 .web{color:var(--akcent-color);}
 /* Header-links */
 .header-links a{color: var(--primary-text-color);}
 /* site-nav */
 .site-nav a:hover{color:var(--akcent-color);} 
-/* Section-title */
-.section-title{color:var(--primary-text-color);}
-/* Team */
-.team{background-color: #F5F4FA;}
-/* Section */
-.section{background-color: #F5F5F5;}
 /* Hero */
-.hero{background-color: #2F303A;}
-.hero-title{color:var(--primery-white-color);}
-.button{background-color: var(--akcent-color); color: var(--primery-white-color);}
+.hero{background-color: #2F303A; }
+.hero-title{color:var(--primery-white-color); 
+    font-weight: 900;
+    font-size: 44px;
+    line-height:1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    }
+.hero-button{background-color: var(--akcent-color); color: var(--primery-white-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:1.88;}
+    /* Section-edge */
+  .section-edge{background-color: #F5F5F5;}
+    .edge-title{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        }
+    .edge-text{
+        color: var(--additional-text-color);
+        font-size: 14px;
+        line-height:1.71;
+        letter-spacing: 0.03em;
+        }
+ /*Section-active*/
+    .section-active{background-color: #F5F5F5;}    
+    .active-title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height:1.17;
+        letter-spacing: 0.03em;}
+/* Section-team */
+.section-team{background-color: #F5F4FA;}
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    }
+.team-prof{
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color:var(--additional-text-color)
+    }
+    /* Footer */
+    .footer{background-color: #2F303A;}
+    .footer-logo{color:var(--primery-white-color);
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height:1.19;
+        letter-spacing: 0.03em;}
+    .footer-web{color:var(--akcent-color);}    
+    .footer-adress{
+        font-size: 14px;
+        line-height:1.7;
+        letter-spacing: 0.03em;
+        color:var(--primery-white-color);
+        }
+    .footer-mail{
+        font-size: 14px;
+        line-height:1.7;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }    
+    .footer-tel{
+        font-size: 14px;
+        line-height:1.7;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        }
+        /* Filter */
+    .filter-button{ 
+        font-family: 'Roboto';
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        letter-spacing: 0.03em;}
+    .filter-button:hover{background-color:var(--akcent-color); color:var(--primery-white-color);}
+   /* Portfolio List */
+        .list-header{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 2;
+            letter-spacing: 0.06em;
+            }
+     .list-text{
+            font-size: 16px;
+            line-height:1.88;
+            letter-spacing: 0.03em;
+            color:var(--additional-text-color);
+            }
